@@ -1,0 +1,69 @@
+.panel {
+    background: rgba(250, 203, 213, 0.80);
+    margin: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.panel img {
+    max-height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.rupture {
+    font-size: 2.5em;
+}
+
+#paniert {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#paniertf {
+    vertical-align: middle;
+    text-align:right;
+}
+
+.obligatoire::after {
+    color: red;
+    content: ' *';
+}
+
+.logo {
+    animation: bitch 50s;
+}
+
+@keyframes bitch {
+    from {
+        left: 0px;
+    }
+    to {
+        right: 0px;
+    }
+}
+
+body {
+    background-image: url(../images/bitchette.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+table {
+    background-color: rgba(219, 112, 147, 0.82);
+    border: 2px solid #aacce8;
+}
+
+.gros {
+    font-size: 1.5em;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.gestion {
+    background-color: #aacce8;
+}
